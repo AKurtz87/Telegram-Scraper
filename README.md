@@ -25,7 +25,7 @@ These instructions will guide you through the process of setting up the scraper 
 
 Clone this repository to your local machine:
 
-> git clone https://github.com/yourusername/telegram-channel-scraper.git
+> git clone https://github.com/AKurtz87/Telegram-Scraper.git
 
 Navigate to the project folder:
 
