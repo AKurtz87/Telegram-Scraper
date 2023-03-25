@@ -49,7 +49,7 @@ The scraper will now check for new posts every 10 seconds and save them to an In
 - Place the JSON file in the project folder.
  -Run the following command in the terminal to process the JSON file and create an index.html file:
 
-> node server.js
+> node Proxy_MTProto_server.js
 
 The HTML Server will start running on port 3000. Open your browser and navigate to http://localhost:3000 to view the scraped posts.
 
