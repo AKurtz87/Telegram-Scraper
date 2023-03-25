@@ -2,7 +2,7 @@
 
 This repository contains a Telegram Channel Scraper script and an HTML Server script that allow you to automatically scrape posts from Telegram channels and then display them on a local server.
 
-## WHAT IS A SCRAPER
+## What is a Scraper
 
 A scraper, in general, is a tool or software that extracts information from websites or other sources by simulating user interactions or fetching web pages and parsing the HTML content. Scrapers can collect a wide variety of data, such as texts, images, links, and metadata, depending on the specific requirements of the task. In the context of monitoring Telegram channels, a scraper can be used to regularly check for new messages, posts, or updates in one or multiple channels. By automating this process, users can keep track of new content without needing to manually visit each channel. This is particularly useful for those who want to collect, archive, or analyze the information shared in Telegram channels, such as researchers, marketers, or enthusiasts interested in a specific topic. A well-designed scraper can help users stay informed about the latest updates, enabling them to respond more quickly to new information or identify trends and patterns in the data.
 
@@ -55,9 +55,9 @@ The HTML Server will start running on port 3000. Open your browser and navigate 
 
 <img width="448" alt="image" src="https://user-images.githubusercontent.com/91114967/227712855-5d073349-aaba-4a25-849f-5c907b483099.png">
 
-## FOCUS ON THE SCRIPTS
+## Focus on the Scripts
 
-### SCRAPER:
+### Scraper.js:
 
 The Telegram Scraper script is a browser console script that helps users scrape posts from a Telegram channel and save them in JSON format. The script creates a "Download JSON" button, which, when clicked, downloads the scraped posts as a JSON file. To use the script, users should copy and paste it into their browser console while browsing the desired Telegram channel.
 
@@ -69,7 +69,7 @@ The checkAndSavePost function checks for new posts on the Telegram channel by co
 
 Finally, the executeEvery10Seconds function clears the database at the beginning and sets an interval to run the checkAndSavePost function every 10 seconds, continuously checking for new posts and updating the database accordingly.
 
-### HTML SERVER
+### HTML Server
 
 The script is a Node.js server-side application that generates an HTML page based on JSON data, specifically from posts scraped from a Telegram channel, and serves the generated HTML page on a local server. The script uses the "http" and "fs" modules to create an HTTP server and perform file operations, respectively.
 
